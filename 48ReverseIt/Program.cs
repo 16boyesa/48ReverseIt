@@ -1,13 +1,7 @@
-﻿using System;
-
-namespace _48ReverseIt { 
-    class Program { 
-        static void Main() { 
+﻿using System;  // https://live.withcode.uk/alevel/?id=48
+namespace _48ReverseIt { class Program {
+        static void Main() {
             string text = Console.ReadLine();
-            for (int i = 0; i < text.Length; i++) { 
-            Console.Write(text.Substring(text.Length - (i + 1), 1)); }
-            Console.Read(); }
-    }
-}
-
-// https://live.withcode.uk/alevel/?id=48
+            for (int i = 0; i < text.Length; i++) {
+                Console.Write(text.Substring(text.Length - (i + 1), 1)); }
+            Console.Read(); } } }
